@@ -7,34 +7,45 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-<com.google.android.material.circularreveal.CircularRevealRelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <com.github.clans.fab.FloatingActionMenu
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:menu_fab_label="Menu"
-        android:layout_alignParentRight="true">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-        <com.github.clans.fab.FloatingActionButton
+        <com.github.clans.fab.FloatingActionMenu
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:fab_label="Video"
-            android:src="@drawable/ic_movie"
-            />
+            android:layout_alignParentRight="true"
+            app:menu_fab_label="Menu">
 
-        <com.github.clans.fab.FloatingActionButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:fab_label="Mapa"
-            android:src="@drawable/ic_mapa"
-            />
-        <com.github.clans.fab.FloatingActionButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:fab_label="Regresion Lineal"
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btnVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_movie"
+                app:fab_label="Video"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="450dp" />
 
-            />
-    </com.github.clans.fab.FloatingActionMenu>
-</com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btnMapa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_mapa"
+                app:fab_label="Mapa"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="520dp" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btnRegresion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:fab_label="Regresion Lineal"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="590dp" />
+        </com.github.clans.fab.FloatingActionMenu>
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
