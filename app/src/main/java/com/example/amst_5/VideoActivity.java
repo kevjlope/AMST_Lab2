@@ -40,7 +40,7 @@ public class VideoActivity extends YouTubeBaseActivity {
 
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 Log.d(TAG,"onClick: Done initializing.");
-                youTubePlayer.loadVideo("Pkh8UtuejGw");
+                youTubePlayer.loadVideo("jFU2kPww88I");
             }
 
             @Override
