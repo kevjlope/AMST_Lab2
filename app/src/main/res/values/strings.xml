@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AMST_5</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="titulo_grafica">GRAFICA LINEAL</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="amst">Aplicaciones Móviles y Sistemas Telemáticos</string>
 </resources>
