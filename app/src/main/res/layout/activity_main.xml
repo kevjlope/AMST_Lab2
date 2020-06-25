@@ -17,6 +17,8 @@
         android:layout_alignParentRight="true">
 
         <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabPrincipal"
+            android:onClick="mostrarVideo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:fab_label="Video"
