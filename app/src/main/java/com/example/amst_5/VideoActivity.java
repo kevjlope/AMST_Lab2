@@ -24,6 +24,10 @@ public class VideoActivity extends YouTubeBaseActivity {
     Button btnPlay;
     YouTubePlayer.OnInitializedListener mOnInitializedListener;
 
+    //Acitivity video
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

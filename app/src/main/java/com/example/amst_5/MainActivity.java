@@ -8,12 +8,17 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
     com.github.clans.fab.FloatingActionButton btnVideo;
+    com.github.clans.fab.FloatingActionButton btnMapa;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        btnMapa = (com.github.clans.fab.FloatingActionButton)findViewById(R.id.btnVideo);
         btnVideo = (com.github.clans.fab.FloatingActionButton)findViewById(R.id.btnVideo);
-        btnVideo.setOnClickListener(new View.OnClickListener() {
+        btnVideo.setOnClickListener(new View.OnClickListener() {{
+
+        }
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getApplicationContext(),VideoActivity.class);
