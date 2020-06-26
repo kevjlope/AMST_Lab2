@@ -42,7 +42,6 @@ public class GraficaActivity extends AppCompatActivity {
         dataVals.add(new Entry(15,20));
         dataVals.add(new Entry(20,25));
         return dataVals;
-
     }
 
 }

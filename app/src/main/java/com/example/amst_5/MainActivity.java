@@ -10,6 +10,8 @@ public class MainActivity extends AppCompatActivity {
     com.github.clans.fab.FloatingActionButton btnVideo;
     com.github.clans.fab.FloatingActionButton btnMapa;
     com.github.clans.fab.FloatingActionButton btnRegrsion;
+    com.github.clans.fab.FloatingActionButton btnCalendar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnCalendar = (com.github.clans.fab.FloatingActionButton)findViewById(R.id.btnCalendar);
+        btnCalendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),CalendarActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
 

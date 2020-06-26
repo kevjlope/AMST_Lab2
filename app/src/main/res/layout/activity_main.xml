@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="2dp"
+            android:layout_marginRight="1dp"
             app:menu_fab_label="Menu">
 
             <com.github.clans.fab.FloatingActionButton
@@ -82,6 +82,15 @@
                 android:layout_height="match_parent"
 
                 app:fab_label="Regresion Lineal"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="590dp" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btnCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:fab_label="Calendario"
                 tools:layout_editor_absoluteX="345dp"
                 tools:layout_editor_absoluteY="590dp" />
 
