@@ -60,6 +60,7 @@ public class VideoActivity extends YouTubeBaseActivity {
         });
 
     }
+
     ////Metodo para el boton volver (regresar a la pantalla principal)
     public void volver(View view) {
         finish();

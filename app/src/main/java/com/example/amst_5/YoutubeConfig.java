@@ -4,7 +4,7 @@ public class YoutubeConfig {
     public YoutubeConfig(){
 
     }
-    //API de youtube
+    //API de youtube de google
     private static final String API_KEY="AIzaSyCEpfQeH_QPD9Gdi_80X1itgEwrbj4DR6g";
 
     //Metodo para obtener el Api de youtube desde otras clases
